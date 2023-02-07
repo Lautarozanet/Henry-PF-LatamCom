@@ -10,7 +10,7 @@ export const LogoutButton = () => {
     localStorage.removeItem("loggedUser");
     localStorage.removeItem("cart");
     // localStorage.removeItem("cart");
-    logout({ returnTo: window.location.origin }
+    logout({ returnTo: window.location.origin })
   }
   return (
     <button onClick={(e) => removeItems()}>

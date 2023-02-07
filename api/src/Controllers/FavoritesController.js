@@ -89,5 +89,6 @@ const removeFavorite = async (req, res) => {
 
 module.exports = {
 	postFavorite,
-	removeFavorite
+	removeFavorite,
+	getComment
 }
